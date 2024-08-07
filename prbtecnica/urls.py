@@ -4,7 +4,7 @@ Aqui se definen las urls de la aplicacion
 from django.contrib import admin
 from django.urls import path
 from users import views
-import settings
+from django.conf import settings
 from django.conf.urls.static import static
 
 
