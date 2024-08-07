@@ -1,0 +1,163 @@
+/* Estilos para el Navigator */
+nav {
+  background-color: #948715; 
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: #000; 
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Algerian', Times, serif; 
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el formulario de registro */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #948715; 
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box; 
+}
+
+form input,
+form select,
+form button {
+  display: block;
+  width: calc(100% - 1.5rem); 
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #948715; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  font-family: 'Times new roman', Times, serif; 
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="password"],
+form select {
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #948715; 
+  color: #000000; 
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #948715; 
+}
+
+form input,
+form select {
+  color: #000; 
+}
+
+form input::placeholder {
+  color: #666; 
+}
+
+/* Estilos generales del contenedor de la página */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px); 
+  padding: 20px;
+  background-color: #f9f9f9; 
+}
+
+/* Estilos para la tarjeta */
+.card {
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px; 
+}
+
+/* Estilo para el título dentro de la tarjeta */
+.card h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el párrafo dentro de la tarjeta */
+.card p {
+  font-size: 1.2rem;
+  color: #666; 
+}
+
+/* Estilos para los botones */
+.button-container {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.execute {
+  background-color: #948715; 
+}
+
+.upload {
+  background-color: #948715;
+}
+
+
+/* Añade estos estilos a tu archivo css.css */
+
+.file-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.file-info-list li {
+  margin: 0.5rem 0;
+}
+
+.file-info-list a {
+  color: #948715; 
+  text-decoration: none;
+}
+
+.file-info-list a:hover {
+  text-decoration: underline;
+}
