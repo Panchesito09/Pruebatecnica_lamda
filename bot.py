@@ -18,12 +18,12 @@ def Cargadocumento():
     time.sleep(2)
     pyautogui.hotkey('alt', 'f4')
     time.sleep(3)
-    pyautogui.click(689, 521)
+    pyautogui.click(571,455)
     time.sleep(2)
     pyautogui.write('cp-PM-2023')
     pyautogui.press('enter')
     time.sleep(2)
-    pyautogui.click(785, 572)
+    pyautogui.click(666,508)
 
 # Llama a la función para ejecutar el script
 Cargadocumento()
