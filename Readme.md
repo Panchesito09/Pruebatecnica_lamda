@@ -10,6 +10,7 @@ al ejecutar el proyecto tendremos una pagina de inicio sencilla con un navigator
 3. navegar asia robot page
 4. ejecutar bot o subir archivo manual
 5. cerrar sesion.
+En caso de que el bot no de click en las posiciones correctas poner resolucion de pantalla en 1600x900
 
 
 ## Backend (Django)
